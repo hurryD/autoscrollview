@@ -22,7 +22,8 @@ dependencies {
 ```
 <br>
 使用方法：<br><br>
-```java
+
+``` java
 //Xml
 <com.hurry.autoscrollview.AutoScrollView
         android:id="@+id/asView_main"
