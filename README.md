@@ -1,7 +1,28 @@
 # autoscrollview
 安卓跑马灯式滚动父控件，可放置TextView或ViewGroup于内实现整块自动滚动<br><br>
-使用方法:<br><br>
-```android
+gradle依赖:<br>
+```java
+//Step 1. Add it in your root build.gradle at the end of repositories
+allprojects {
+	repositories {
+		...
+		aven { url 'https://jitpack.io' }
+	}
+}
+        
+	
+	
+//Step 2. Add the dependency in build.gradle for app
+dependencies {
+	
+	compile 'com.github.hurryD:autoscrollview:v1.0'
+		
+}
+
+```
+<br>
+使用方法：<br><br>
+```java
 //Xml
 <com.hurry.autoscrollview.AutoScrollView
         android:id="@+id/asView_main"
