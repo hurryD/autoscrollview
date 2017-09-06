@@ -1,0 +1,2 @@
+# autoscrollview
+安卓跑马灯式滚动父控件，可放置TextView或ViewGroup于内实现整块自动滚动
