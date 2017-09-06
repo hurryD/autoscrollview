@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoScrollView">
+
+        <attr name="singleScrollWidth" format="float" />
+        <attr name="singleDuration" format="integer" />
+        <attr name="startDuration" format="integer" />
+        <attr name="endDuration" format="integer" />
+        <attr name="finishState">
+            <enum name="start" value="0" />
+            <enum name="end" value="1" />
+        </attr>
+        <attr name="repeatAble" format="boolean"/>
+
+
+    </declare-styleable>
+
+</resources>
